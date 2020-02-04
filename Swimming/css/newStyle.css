@@ -1,0 +1,309 @@
+.w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.pageSec-padding{
+    padding: 60px 0 0px
+}
+
+.mg-15p{
+    margin-top: 15px !important;
+}
+.introDiv{
+    margin: 0 8%;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.navbar {
+    min-height: inherit !important;
+    background: #ffffff;
+}
+
+.navbar-brand {
+    height: auto;
+    padding: 0 0;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -52px;
+}
+
+.navbar .navbar-brand img {
+    height: 84px;
+}
+
+.navbar.affix .navbar-brand {
+    padding: 2px 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.navbar.affix {
+    width: 100%;
+    background: #ffffff;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+#about{
+    background:  -webkit-radial-gradient(20% 95%, circle farthest-corner, hsla(0, 0%, 0%, 0.18), rgba(0, 0, 0, 0.28) 40%), url(../img/ginkgoklein.png) 95% 10% no-repeat,url('../images/swimming/aboutBG.jpg');
+    margin: 1%;
+    background-position: center top;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    background-size: cover;
+       padding: 80px 0;
+}
+
+#about h2, #about p,#about strong{
+    color:#fff;
+}
+
+#about .button {
+    background: #ffffff;
+    padding: 9px 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    color: #109fb5;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    border: 2px solid #00d3ff;
+}
+
+#services{
+       padding: 80px 0;
+}
+#services .service-tilte{
+    margin: 0 15%;
+}
+
+#services .section-title {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#keyfeature{
+       padding: 80px 0;
+}
+#keyfeature .section-title {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+#keyfeature img{
+    height:380px;
+}
+
+.contactHeading{
+        color: #fff;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 10px;
+        font-weight: 600;
+}
+.contactHeading span{
+      font-size: 14px;
+}
+
+.ul-none{
+        list-style-type: none;
+}
+
+
+
+.contact-3 .contact-form .section-field-half {
+    width: 48%;
+}
+.mapDiv{
+    margin: -3% 3% 2%;
+    position: relative;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.addresss-info p {
+    display: table;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+.addresss-info li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+#contact-us .button.white {
+    background: #40a4dfd4;
+    color: #ffffff;
+    border-color: #40a4df;
+}
+
+.contact-form.transparent-form .form-control {
+    box-shadow: none;
+    color: #ffffff;
+    background: #ffffff7d;
+}
+
+.featureDIV i{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video-background-banner .slider-content {
+    border: 4px solid #40a4df;
+    width: 50%;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+
+
+@media (max-width: 1400px) {
+  
+    .video-background-banner h1 {
+        font-size: 30px !important;
+        line-height: 60px;
+    }
+    
+  }
+
+.navbar.affix .navbar-brand img {
+    height: auto;
+    width: 120px;
+}
+.video-background-banner .slider-content span {
+    font-size: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 0;
+}
+
+.footer #logo-footer {
+    height: 40px;
+}
+
+.section-transparent {
+    background-image: url('../images/swimming/checksBG.jpg');
+}
+
+#payForm {
+    margin: 9% auto 3%;
+    width: 50%;
+}
+
+.demoForm{
+      background: #000;
+    padding: 2% 24px 1%;
+    margin-top: 1%;
+    width: 98%;
+    margin-left: 1%;
+    /* z-index: 9999; */
+    margin-bottom: 0;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.demoForm .contact-form .section-field {
+       position: relative;
+    width: 48%;
+    float: left;
+    margin: 0 auto;
+    margin-right: 12px;
+}
+
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+    height: 568px;
+}
+
+.service-tab{
+           height: 320px;
+    background: #66c5dd;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.service-tab h4{
+text-align: center;
+    color: #fff;
+    font-size: 21px;
+    font-family: inherit;
+    padding-top:5px;
+        font-weight: 600;
+}
+
+.service-tab ul li{
+        color: #fff;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 400;
+    padding: 1px 5px;
+}
+
+.footer .copyright {
+    padding: 15px 0 5px;
+}
+
+.footer #logo-footer {
+    height: 60px;
+}
+
+/*mobile screen*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+}
+  .navbar .navbar-brand img {
+    height: 50px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #0f93b5;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar.affix .navbar-brand img {
+    height: 60px;
+    width: 120px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+    height: 300px;
+}
+
+.demoForm .contact-form .section-field {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-right: 12px;
+}
+
+#payForm {
+    margin: 9% auto 3%;
+    width: 100%;
+}
+
+
+
+  
+}
